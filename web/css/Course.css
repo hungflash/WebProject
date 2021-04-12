@@ -1,0 +1,88 @@
+.margin-y-30,
+.marginTop-30 {
+    margin-top: 1.875rem!important;
+}
+
+.list-card {
+    /* display: -webkit-flex; */
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    color: #606065;
+    font-size: 1rem;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+[data-dark-overlay],
+[data-primary-overlay] {
+    position: relative;
+    z-index: 1;
+}
+
+.padding-y-60,
+.paddingBottom-60 {
+    padding-bottom: 3.75rem!important;
+}
+
+.padding-y-60,
+.paddingTop-60 {
+    padding-top: 3.75rem!important;
+}
+
+.bg-cover {
+    background-size: cover!important;
+}
+.bg-light-v2 {
+    background-color: #f1f3f7!important;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+a {
+    color: white;;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+user agent stylesheet
+ol {
+    list-style-type: decimal;
+}
+.text-white {
+    color: #fff!important;
+}
